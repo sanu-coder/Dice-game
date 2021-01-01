@@ -12,7 +12,7 @@ function myfunc() {
     if (n1 > n2) {
         document.querySelector("h1").innerHTML = " &#127987; Player 1 Wins ";
     } else if (n1 == n2) {
-        document.querySelector("h1").innerHTML = "&#128528; Draw &#128528;";
+        document.querySelector("h1").innerHTML = " Draw ";
     } else {
         document.querySelector("h1").innerHTML = "Player 2 Wins  &#127987;";
     }
